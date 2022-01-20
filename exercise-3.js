@@ -5,7 +5,6 @@ function adultFilter(persons) {
       console.log(persons[i]);
     }
   }
-  let newArray = [];
 }
 
 const persons = [{
