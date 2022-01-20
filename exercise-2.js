@@ -12,7 +12,7 @@
        return 1000;
    }
  }
- console.log(calculateSalary('develope'));
+ console.log(calculateSalary('developer'));
 
  const ceoSalary = calculateSalary('ceo');
  const managerSalary = calculateSalary('manager');
