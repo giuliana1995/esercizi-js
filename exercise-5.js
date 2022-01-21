@@ -1,5 +1,5 @@
 function calculateAverageAge(persons) {
-  var i = 0;
+  let i = 0;
   summ = 0;
   ArrayLength = persons.length;
   while (i < ArrayLength) {
