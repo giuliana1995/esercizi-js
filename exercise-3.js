@@ -1,5 +1,5 @@
 function adultFilter(persons) {
-  for (var i = 0; i < persons.length; i++) {
+  for (let i = 0; i < persons.length; i++) 
     if (persons[i].age >= 18) {
       console.log(persons[i]);
     }
