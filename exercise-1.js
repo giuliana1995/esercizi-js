@@ -1,3 +1,5 @@
+//modificando l'oggetto person2 viene modificato anche l'oggetto person1 in quanto le due variabili fanno riferimento alla stessa allocazione in memoria
+
 const person1 = {
   firstName: 'John',
   lastName: 'Doe',
