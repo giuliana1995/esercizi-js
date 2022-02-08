@@ -41,6 +41,6 @@ class BankAccountVip extends BankAccount {
 const bankAccountVip = new BankAccountVip(0);
 bankAccountVip.deposit(500);
 bankAccountVip.deposit(100);
-/* bankAccountVip.withdraw(800);
+bankAccountVip.withdraw(800);
 bankAccountVip.deposit(300);
 bankAccountVip.view();
