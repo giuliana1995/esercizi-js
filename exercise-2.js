@@ -33,5 +33,4 @@ function fetchPersonById(id) {
   })
 }
 
-fetchPersonById(2).then((person) => console.log(person)) 
-fetchPersonById(4).then((person) => console.log(person)).catch((err) => {console.log (err) });
+fetchPersonById(3).then((person) => console.log(person)).catch((err) => {console.log (err) });
