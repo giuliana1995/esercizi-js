@@ -1,0 +1,26 @@
+<html>
+  <body>
+    <div id="container">
+      <button type="button" id="fetch-post">
+        Fetch Post from LocalStorage
+      </button>
+
+      <h2>Post: <span id="post-title"></span></h2>
+    </div>
+  </body>
+</html>
+
+<script>
+
+
+  let button = document.querySelector("button")
+  async function rdownload() {
+    let local = await localStorage.getItem("data")
+    let text = await JSON.parse(JSON.stringify(local));
+    let post = document.querySelector("#post-title");
+    post.textContent += text;
+  }
+
+  button.addEventListener('click', rdownload);
+
+</script>
